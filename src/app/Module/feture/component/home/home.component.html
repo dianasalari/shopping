@@ -1,0 +1,12 @@
+<div class="mt-6">
+    <div>
+        <app-main-carousel></app-main-carousel>
+    </div>
+    <div>
+        <app-slider-product (click)="navigate()" title="Men's Jeans" [products]="menJeans"></app-slider-product>
+        <app-slider-product routerLink="/products/womens-dresses" title="Women's Gounes" [products]="WomensGounes"></app-slider-product>
+        <app-slider-product title="Lehanaga Choli" [products]="LehanagaCholi"></app-slider-product>
+        <app-slider-product title="men's kurta" [products]="menskurta"></app-slider-product>
+        <app-slider-product title="Shoes" [products]="Shoes"></app-slider-product>
+    </div>
+</div>
